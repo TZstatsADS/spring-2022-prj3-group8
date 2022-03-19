@@ -1,2 +1,5 @@
 .DS_Store
 data/
+output/model.pth
+doc/__pycache__/
+doc/.ipynb_checkpoints/
