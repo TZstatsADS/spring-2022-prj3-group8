@@ -13,6 +13,3 @@ Joel and Rhea built CNN models for Model I and Model II using both a simple CNN 
 Sibo, Xiran, and Jiuru worked together as a team on label cleansing. They discussed and tried several models on **torchssl**, and by comparison, found that **flexmatch** is the best among the models we tried. 
 
 All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
-
-
- Examples: AB, CD, EF and GH designed the study. AB and CD developed baseline classification model for evaluation. EF and GH explored feature engineering for improving the baseline model. AB, EF and GH discussed and designed the model evaluation protocol. CD carried out the computation for model evaluation. All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
