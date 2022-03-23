@@ -1,20 +1,18 @@
-### A Note on Contributions
+## Project 3 
+### Weakly supervised learning: label noise and correction
 
-Whenever we have team projects, there are always concerns on unequal contributions from members of a project team. In the ideal world, we are all here to put in our best efforts and learn together. Even in that ideal world, we have different skill sets and preparations, and we will still contribute differently to a project. 
 
-Therefore, you are required to post a *contribution statement* in the root README.md of your GitHub repo. Please beware that your GitHub repo will become public and remain public after the due date of the projects. 
+Team members: Sibo Geng, Xiran Lin, Joel Mugyenyi, Rhea Sablani, Jiuru Wang
 
-Post your title, team members, project abstract and a contribution statement in the README.md file.  This is a common practice for research scientific journals. 
+Summary: In this project, we developed two models, one for training the labels of the images with the given labels, and another for training the labels with semi-supervised learning. We achieved 96% accuracy when training with semi-supervised learning and 86% accuracy when training with the predicted clean labels.
 
-Below is an example. If no contribution statement is provided, we will insert a default statement that goes "**All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement**. "
+[Contribution Statement] 
 
----
-Sample project README statement.
+Joel and Rhea built CNN models for Model I and Model II using both a simple CNN model and a pretrained model (RESNet). Rhea worked on the construction and optimization of the CNN model that had an improved prediction accuracy compared to the baseline logistic model.
 
-Project xxx
+Sibo, Xiran, and Jiuru worked together as a team on label cleansing. They discussed and tried several models on **torchssl**, and by comparison, found that **flexmatch** is the best among the models we tried. 
 
-Team members: Avi Bond, Comma Deed, En Funn, Gem Hon
+All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
 
-Summary: In this project, we developed a new method and improved the classification accuracy for images of cats and dogs to 99.9%
 
-[Contribution Statement] AB, CD, EF and GH designed the study. AB and CD developed baseline classification model for evaluation. EF and GH explored feature engineering for improving the baseline model. AB, EF and GH discussed and designed the model evaluation protocol. CD carried out the computation for model evaluation. All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
+ Examples: AB, CD, EF and GH designed the study. AB and CD developed baseline classification model for evaluation. EF and GH explored feature engineering for improving the baseline model. AB, EF and GH discussed and designed the model evaluation protocol. CD carried out the computation for model evaluation. All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
