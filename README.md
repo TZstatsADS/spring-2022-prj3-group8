@@ -13,19 +13,6 @@ Term: Spring 2022
 	+ Rhea Sablani (rss2229@columbia.edu)
 	+ Jiuru Wang (jw4150@columbia.edu)
 
-+ Project summary: In this project, we use *linear regression* as our baseline model. We developed a model, which contains 8 layer, and trained this model with noisy labels. We got approximately 26% accuracy as a result. Then, we use semi-supervised learning on the noisy labels, which yield about 96% accuracy of the labels. We put this "Model *"predicted cleaned labels"* into our model and did the same training, after all we got about 87% accuracy, which is way better than the one with noisy labels. 
++ Project summary: In this project, we use *linear regression* as our baseline model. We developed a model, which contains 8 layer, and trained this model with noisy labels. We got approximately 26% accuracy as a result. Then, we use semi-supervised learning on the noisy labels, which yield about 68% accuracy of the labels. We put this "Model *"predicted cleaned labels"* into our model and did the same training, after all we got about 87% accuracy, which is way better than the one with noisy labels. 
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
-
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
-
-```
-proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-└── output/
-```
-
-Please see each subfolder for a README file.
