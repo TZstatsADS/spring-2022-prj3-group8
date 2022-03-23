@@ -4,7 +4,7 @@
 
 Team members: Sibo Geng, Xiran Lin, Joel Mugyenyi, Rhea Sablani, Jiuru Wang
 
-Summary: In this project, we developed two models, one for training the labels of the images with the given labels, and another for training the labels with semi-supervised learning. We achieved 96% accuracy when training with semi-supervised learning and 86% accuracy when training with the predicted clean labels.
+Summary: In this project, we developed two models, one for training the labels of the images with the given labels, and another for training the labels with semi-supervised learning. We achieved 96% accuracy when training with semi-supervised learning and 68% accuracy when training with the predicted clean labels.
 
 [Contribution Statement] 
 
