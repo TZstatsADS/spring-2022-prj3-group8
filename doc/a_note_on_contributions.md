@@ -1,6 +1,5 @@
 ## Project 3 
-### Weakly supervised learning: 
-### label noise and correction
+### Weakly supervised learning: label noise and correction
 
 
 Team members: Sibo Geng, Xiran Lin, Joel Mugyenyi, Rhea Sablani, Jiuru Wang
