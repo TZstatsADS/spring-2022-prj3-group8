@@ -162,7 +162,7 @@ def accuracy_score(validation_loader, model):
 
     print(f'Accuracy of the network on the test images: {100 * correct // total} %')
 
-class Image_dataset(Dataset):
+class Image_dataset_PIL(Dataset):
     def __init__(self, data_png, targets=None, transform=None):
         self.data_png = data_png
         self.targets = targets
@@ -180,6 +180,43 @@ class Image_dataset(Dataset):
 
         if self.transform is not None:
             img = self.transform(img)
+        return (img, y_label)
+    
+
+class Image_dataset_CV(Dataset):
+    def __init__(self, data, targets=None, transform=None):
+        self.data = data
+        self.targets = targets
+        self.transform = transform
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, index):
+        img = self.data[index]/255
+        y_label=torch.empty(0)
+        if self.targets is not None:
+            y_label = torch.tensor(float(self.targets[index]))
+        if self.transform is not None:
+            img = self.transform(img).float()
+        return (img, y_label)
+    
+class Image_dataset_NP(Dataset):
+    def __init__(self, data, targets=None, transform=None):
+        self.data = data
+        self.targets = targets
+        self.transform = transform
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, index):
+        img = self.data[index]
+        y_label=torch.empty(0)
+        if self.targets is not None:
+            y_label = torch.tensor(float(self.targets[index]))
+        if self.transform is not None:
+            img = self.transform(img).float()
         return (img, y_label)
 
 class Net(nn.Module):
