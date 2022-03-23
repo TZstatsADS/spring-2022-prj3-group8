@@ -8,7 +8,7 @@ Summary: In this project, we developed two models, one for training the labels o
 
 [Contribution Statement] 
 
-Joel and Rhea
+Joel and Rhea built CNN models for Model I and Model II using both a simple CNN model and a pretrained model (RESNet). 
 
 Sibo, Xiran, and Jiuru as a team worked on label cleansing. We discussed and tried several models on **torchssl**, and by comparison, we found **flexmatch** is the best among the models we tried. 
 All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
